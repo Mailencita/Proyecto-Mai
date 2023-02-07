@@ -51,7 +51,7 @@ a {
     color: black;
 }
 
-#FotoLogoIndex {
+#fotoLogoIndex {
     display: none;
 }
 
@@ -71,7 +71,7 @@ header button {
     font-family: 'Figtree', sans-serif;
 }
 
-.Subtitulos{
+.subtitulos{
     display: flex;
     text-align: center;
     align-items: center;
@@ -102,7 +102,7 @@ li {
 }
 
 /**
-.RedSocial {
+.redSocial {
     text-align: left;
 }
 **/
@@ -112,12 +112,12 @@ footer h2 img {
     width: 150px;
 }
 
-.SubFooter {
+.subFooter {
     font-size: 15px;
     text-align: center;
 }
 
-.NavOtrasPag {
+.navOtrasPag {
     display: flex;
     flex-direction: row;
     text-align: center;
