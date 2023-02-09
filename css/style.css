@@ -28,6 +28,8 @@ header {
 
 .logoPrincipal {
     width: 15%;
+    display: flex;
+    margin-left: 40%;
 }
 
 nav {
@@ -103,6 +105,12 @@ section {
     grid-template-areas: 
     div img
     p img;
+}
+
+section div{
+    display: grid;
+    gap: 50%;
+    margin-left: 10%;
 }
 
 section img {
