@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Figtree:wght@300&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Figtree:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Figtree:wght@300&family=Raleway:ital,wght@1,200&display=swap');
 
 body {
     font-family: 'Beau Rivage', cursive;
@@ -20,15 +20,15 @@ header {
     font-weight: bold;
 }
 
-body header h1 {
+/* body header h1 {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
     margin-top: 0px;
-}
+} */
 
 .logoPrincipal {
-    width: 150px;
+    width: 15%;
 }
 
 nav {
@@ -37,13 +37,17 @@ nav {
 }
 
 .navegador {
-    display: flex;
-    flex-direction: row;
-    justify-content:space-evenly;
+    display: grid;
+    grid-template-columns: 10% 13% 13% 13% 13% 15% 10%;
+    grid-template-rows: 1fr;
+    justify-content: space-between;
 }
 
-header ul li img {
-    width: 200px;
+/***Voy a juntar el boton de busqueda con el placeholder****/
+
+.botonBuscar {
+    display: flex;
+    margin-left: -15%;
 }
 
 a {
@@ -55,7 +59,7 @@ a {
     display: none;
 }
 
-header button {
+/* header button {
     display: flex;
     text-align: justify;
     background-color: #D9B991;
@@ -69,16 +73,14 @@ header button {
     font-size: 25px;
     font-family: 'Beau Rivage', cursive;
     font-family: 'Figtree', sans-serif;
-}
+} */
 
-.subtitulos{
+.subtitulos {
     display: flex;
     text-align: center;
     align-items: center;
     margin-left: 50%;
     margin-right: 50%;
-    font-family: 'Beau Rivage', cursive;
-    font-family: 'Figtree', sans-serif;
 }
 
 main {
@@ -86,6 +88,14 @@ main {
     flex: 1;
     background-color: #F2F2F2;
     padding: 100px;
+    font-family: 'Beau Rivage', cursive;
+    font-family: 'Figtree', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.subtituloIndex {
+    font-size: medium;
+    font-weight: bolder;
 }
 
 footer {
