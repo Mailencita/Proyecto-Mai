@@ -190,39 +190,4 @@ footer h2 img {
     text-align: center;
 }
 
-.navOtrasPag {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    align-items: flex-end;
-    justify-content: space-around;
-}
-
-@media (min-width: 450px){
-    .madreDeTodo{
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-areas: 
-        header
-        section
-        aside
-        footer;
-    }
-
-    .logoPrincipal{
-        display: grid;
-        width: 20%;
-    }
-
-    /* .navegador {
-        display: grid;
-        grid-template-rows: 10% 10% 10% 10% 10%;
-        grid-template-areas: 
-        catalogo
-        materiales
-        manifiesto
-        ingreso
-        carrito
-        botonBuscar;
-    } */
-}
+@media (min-width 400px)
