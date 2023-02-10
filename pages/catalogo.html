@@ -7,46 +7,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../img/logo.png">
-    <title>Clo Slow Design - Catalogo</title>
+    <title>Clo Slow Design</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 
-<body>
+<body class="madreDeTodo">
     <header>
-        <nav>
-            <ul class="NavOtrasPag">
-                <li><a href="../pages/catalogo.html">Catalogo</a></li>
-                <li><a href="../pages/materiales.html">Materiales</a></li>
-                <li><a href="../pages/ecoresponsabilidad.html">Eco Responsabilidad</a></li>
-                <li><a href="../index.html"><img src="../img/logo.png" alt="Logo"></a></li>
-                <li><a href="../pages/manifiesto.html">Manifiesto</a></li>
-                <li><a href="../pages/registro.html">Registro o Inicia Sesion</a></li>
-                <li><a href="../pages/carrito.html">Carrito</a></li>
-            </ul>
+        <div>
+            <img src="../img/logo.png" alt="index" class="logoPrincipal">
+
+        </div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navBar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="catalogo.html">Catalogo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="manifiesto.html">Manifiesto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="carrito.html">Carrito</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Contacto
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="contacto.html">Contactanos</a></li>
+                                <li><a class="dropdown-item" href="registro.html">Ingresa o Registrate</a></li>
+                                <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-        <h1 class="Subtitulos">Catalogo</h1>
     </header>
 
-    <main>
-
-    </main>
     <footer>
-        <ul class="RedSocial">
+        <ul class="redSocial">
             <li><a href="https://www.instagram.com/">Instagram</a></li>
             <li><a href="https://www.facebook.com/">Facebook</a></li>
             <li><a href="https://web.whatsapp.com/">WhatsApp</a></li>
         </ul>
-        <h2 class="SubFooter">
+        <h2 class="subFooter">
             <img src="../img/logo.png" alt="logo">
             <p>Clo Slow Designe</p>
             <p>Todos los derechos reservados</p>
         </h2>
         <ul>
             <li><a href="pages/contacto.html">Contacto</a></li>
-            <li><a href="pages/ecoresponsabilidad.html">Eco Responsabilidad</a></li>
             <li><a href="pages/manifiesto.html">Manifiesto</a></li>
             <li><a href="pages/registro.html">Registro o Inicia Sesion</a></li>
         </ul>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
