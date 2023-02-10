@@ -12,23 +12,57 @@
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 
-<body>
+<body class="madreDeTodo">
     <header>
         <div>
             <img src="img/logo.png" alt="index" class="logoPrincipal">
 
         </div>
-        <nav>
+        <!-- <nav>
             <ul class="navegador">
-                <li><a href="pages/catalogo.html">Catalogo</a></li>
-                <li><a href="pages/materiales.html">Materiales</a></li>
-                <li><a href="pages/manifiesto.html">Manifiesto</a></li>
-                <li><a href="pages/registro.html">Ingresa/ Registrate</a></li>
-                <li><a href="pages/carrito.html">Carrito</a></li>
-                <li><input type="search" name="busquedadeproductos" placeholder="Qué buscas?"></li>
+                <li class="catalogo"><a href="pages/catalogo.html">Catalogo</a></li>
+                <li class="materiales"><a href="pages/materiales.html">Materiales</a></li>
+                <li class="manifiesto"><a href="pages/manifiesto.html">Manifiesto</a></li>
+                <li class="ingreso"><a href="pages/registro.html">Ingresa/ Registrate</a></li>
+                <li class="carrito"><a href="pages/carrito.html">Carrito</a></li>
+                <li class="placeholder"><input type="search" name="busquedadeproductos" placeholder="Qué buscas?"></li>
                 <li><input class="botonBuscar" type="submit" value="Buscar"></li>
             </ul>
 
+        </nav> -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navBar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="pages/catalogo.html">Catalogo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/manifiesto.html">Manifiesto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/carrito.html">Carrito</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Contacto
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="pages/contacto.html">Contactanos</a></li>
+                                <li><a class="dropdown-item" href="pages/registro.html">Ingresa o Registrate</a></li>
+                                <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -45,26 +79,27 @@
             <img src="img/cartera-bluey.jpeg" class="card-img-top" alt="cartera-bluey">
             <div class="card-body">
                 <h5 class="card-title">Sobre Bluey</h5>
-                <p class="card-text">Sobre de jean, inspirado en la animacion "Bluey". Busca ser comodo, versatil,
-                    amplio y de un color alegre y sobrio a la vez</p>
+                <p class="card-text">Sobre de arpillera con interior de loneta estampada con flores , medida 0,30 cm x
+                    0,20cm, bolsillo interior, correa con pasante para regular el largo, dos cierres magnéticos</p>
                 <a href="#" class="btn btn-primary" id="botonComprar">Comprar</a>
             </div>
         </div>
         <div class="card" style="width: 18rem;">
-            <img src="img/cartera-bluey.jpeg" class="card-img-top" alt="cartera-bluey">
+            <img src="img/cartera-negri.jpeg" class="card-img-top" alt="cartera-negri">
             <div class="card-body">
-                <h5 class="card-title">Sobre Bluey</h5>
-                <p class="card-text">Sobre de jean, inspirado en la animacion "Bluey". Busca ser comodo, versatil,
-                    amplio y de un color alegre y sobrio a la vez</p>
+                <h5 class="card-title">Sobre Indigo</h5>
+                <p class="card-text">Sobre indigo tela de jeans negra con Spandex y tapa de tela rústica estampada. Tira
+                    para colgar de 1,20, dos argollas laterales, dos cierres magnéticos</p>
                 <a href="#" class="btn btn-primary" id="botonComprar">Comprar</a>
             </div>
         </div>
         <div class="card" style="width: 18rem;">
-            <img src="img/cartera-bluey.jpeg" class="card-img-top" alt="cartera-bluey">
+            <img src="img/cartera-yute.jpeg" class="card-img-top" alt="cartera-yute">
             <div class="card-body">
-                <h5 class="card-title">Sobre Bluey</h5>
-                <p class="card-text">Sobre de jean, inspirado en la animacion "Bluey". Busca ser comodo, versatil,
-                    amplio y de un color alegre y sobrio a la vez</p>
+                <h5 class="card-title">Morral Springs</h5>
+                <p class="card-text">Morral "Srings" o Primavera. Yute con interior de algodon estampado. Medida 30 cm
+                    de largo x 36 de ancho. Dos argollas laterales. Tira para colgar de 1,40 cm con pasante para regular
+                    el largo. Un cierre magnético</p>
                 <a href="#" class="btn btn-primary" id="botonComprar">Comprar</a>
             </div>
         </div>

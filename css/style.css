@@ -6,7 +6,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Figtree:wght@300&family=Raleway:wght@200;300;400&display=swap');
 
 
-
 * {
     margin: 0%;
     padding: 0%;
@@ -43,12 +42,16 @@ header {
 }
 
 nav {
-    background-color: #F2DBAE;
+    /* background-color: #F2DBAE !important; */
     opacity: 80%;
     height: 8%;
     text-align: center;
     padding-top: 1%;
     padding-bottom: -1%;
+}
+
+#navBar {
+    background-color: #D6CEC1 !important;
 }
 
 .navegador {
@@ -193,4 +196,33 @@ footer h2 img {
     text-align: center;
     align-items: flex-end;
     justify-content: space-around;
+}
+
+@media (min-width: 450px){
+    .madreDeTodo{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-areas: 
+        header
+        section
+        aside
+        footer;
+    }
+
+    .logoPrincipal{
+        display: grid;
+        width: 20%;
+    }
+
+    /* .navegador {
+        display: grid;
+        grid-template-rows: 10% 10% 10% 10% 10%;
+        grid-template-areas: 
+        catalogo
+        materiales
+        manifiesto
+        ingreso
+        carrito
+        botonBuscar;
+    } */
 }
