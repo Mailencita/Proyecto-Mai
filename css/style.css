@@ -69,8 +69,8 @@ nav {
 }
 
 a {
-    text-decoration: none;
-    color: black;
+    text-decoration: none !important;
+    color: black !important;
 }
 
 #fotoLogoIndex {
@@ -104,22 +104,22 @@ a {
     font-family: 'Figtree', sans-serif;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    background-color: #F2F2F2;
+    background-color: #EDE9E5;
 }
 
 section {
     /**display: flex;
     flex: 1;**/
     /**padding: 100px;**/
-    background-color: #F2F2F2;
+    background-color: #EDE9E5;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 25% 25%;
     grid-template-areas:
         div img
         p img;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 
@@ -141,34 +141,26 @@ section img {
     width: 70%;
 }
 
-aside div {
-    display: grid;
-    grid-area: div;
-}
-
-aside div p{
-    display: grid;
-    grid-area: p;
-}
-
-aside img {
-    display: grid;
-    grid-area: img;
-    width: 70%;
-}
 aside {
     display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     background-color: #F2F2F2;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 25% 25%;
-    grid-template-areas: 
-    img div
-    img p;
+    font-family: 'Beau Rivage', cursive;
+    font-family: 'Figtree', sans-serif;
+}
+
+#botonComprar {
+    background-color: #627370;
+    border-color: #627370;
+    align-items: center;
 }
 
 footer {
     display: flex;
-    background-color: #F2DBAE;
+    background-color: #D6C8C1;
     flex: 6;
     align-items: baseline;
     justify-content: space-between;
