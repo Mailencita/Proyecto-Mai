@@ -1,6 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Figtree:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Figtree:wght@300&display=swap'); */
 
-@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Figtree:wght@300&family=Raleway:ital,wght@1,200&display=swap');
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Figtree:wght@300&family=Raleway:ital,wght@0,200;0,300;0,400;0,700;1,200&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Figtree:wght@300&family=Raleway:wght@200;300;400&display=swap');
+
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
 
 body {
     font-family: 'Beau Rivage', cursive;
@@ -27,7 +37,7 @@ header {
 } */
 
 .logoPrincipal {
-    width: 15%;
+    width: 20%;
     display: flex;
     margin-left: 40%;
 }
@@ -37,6 +47,8 @@ nav {
     opacity: 80%;
     height: 8%;
     text-align: center;
+    padding-top: 1%;
+    padding-bottom: -1%;
 }
 
 .navegador {
@@ -45,7 +57,7 @@ nav {
     grid-template-rows: 1fr;
     justify-content: space-between;
     text-align: center;
-    font-size: 100%;
+    font-size: 110%;
     font-weight: bolder;
 }
 
@@ -82,32 +94,44 @@ a {
 } */
 
 .subtitulos {
-    /* display: flex; */
-    /* text-align: center;
+    /* display: flex; 
     align-items: center;
     margin-left: 50%;
     margin-right: 50%; */
     font-size: 150%;
-
+    text-align: center;
+    font-family: 'Beau Rivage', cursive;
+    font-family: 'Figtree', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    background-color: #F2F2F2;
 }
 
 section {
     /**display: flex;
     flex: 1;**/
-    background-color: #F2F2F2;
     /**padding: 100px;**/
-    font-family: 'Beau Rivage', cursive;
-    font-family: 'Figtree', sans-serif;
-    font-family: 'Raleway', sans-serif;
+    background-color: #F2F2F2;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 25% 25%;
-    grid-template-areas: 
-    div img
-    p img;
+    grid-template-areas:
+        div img
+        p img;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
-section div{
+
+
+section div p {
+    font-family: 'Beau Rivage', cursive;
+    font-family: 'Figtree', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+section div {
     display: grid;
     gap: 50%;
     margin-left: 10%;
@@ -115,6 +139,31 @@ section div{
 
 section img {
     width: 70%;
+}
+
+aside div {
+    display: grid;
+    grid-area: div;
+}
+
+aside div p{
+    display: grid;
+    grid-area: p;
+}
+
+aside img {
+    display: grid;
+    grid-area: img;
+    width: 70%;
+}
+aside {
+    display: grid;
+    background-color: #F2F2F2;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 25%;
+    grid-template-areas: 
+    img div
+    img p;
 }
 
 footer {
