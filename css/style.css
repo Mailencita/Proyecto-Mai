@@ -15,7 +15,7 @@ body {
     font-family: 'Beau Rivage', cursive;
     font-family: 'Figtree', sans-serif;
     margin: 0px 0px 0px 0px;
-    font-weight: lighter;
+    /* font-weight: lighter; */
 }
 
 header {
@@ -146,7 +146,7 @@ section img {
 
 aside {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 1fr 1fr 1fr;
     padding-left: 10%;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -190,4 +190,8 @@ footer h2 img {
     text-align: center;
 }
 
-@media (min-width 400px)
+@media (min-width 560px) {
+   
+
+}
+    
